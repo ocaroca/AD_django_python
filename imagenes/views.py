@@ -7,3 +7,4 @@ from .serializers import ImagenSerializer
 class ImagenViewSet(viewsets.ModelViewSet):
     serializer_class = ImagenSerializer
     queryset = Imagen.objects.all()
+    
